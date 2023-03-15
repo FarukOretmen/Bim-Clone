@@ -1,0 +1,85 @@
+#ust {
+  background-color: red;
+  padding-top: 7px;
+  padding-left: 9px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.svg {
+  padding-left: 47em;
+}
+#logo {
+  width: 150px;
+  height: 80px;
+  margin-top: 10px;
+  margin-left: 1em;
+}
+button {
+  border: none;
+  background-color: white;
+}
+button:hover {
+  color: red;
+}
+.svg-2 {
+  padding-left: 39em;
+}
+#date {
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.btn {
+  width: 200px;
+  height: 50px;
+}
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+.btn-1:hover {
+  background-color: blue;
+  color: white;
+}
+.btn-2 {
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 10%;
+}
+.btn-2:hover {
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+}
+.btn-3 {
+  width: 150px;
+  height: 50px;
+}
+.btn-3:hover {
+  background-color: red;
+  color: white;
+}
+.btn-4 {
+  background-color: red;
+  color: white;
+}
+.footer {
+  background-color: rgb(241, 229, 229);
+  margin-top: 2em;
+}
+.f-link {
+  color: black;
+}
+.f-link:hover {
+  color: black;
+}

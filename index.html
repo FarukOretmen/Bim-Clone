@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fixed-top" style="background-color: white">
+      <div id="ust">
+        <div>
+          <div style="display: inline-block">
+            <a href="#">
+              <p><span style="color: white"> Hakkimizda</span></p></a
+            >
+          </div>
+          <span style="color: white">|</span>
+
+          <div style="display: inline-block">
+            <a href="#">
+              <p><span style="color: white"> Bimde Kariyer</span></p></a
+            >
+          </div>
+          <span style="color: white">|</span>
+
+          <div style="display: inline-block">
+            <a href="#"
+              ><p>
+                <span style="color: white"> Yatirimci Iliskileri </span>
+              </p></a
+            >
+          </div>
+          <span style="color: white">|</span>
+          <div style="display: inline-block">
+            <a href="#">
+              <p><span style="color: white">S.S.S</span></p></a
+            >
+          </div>
+          <!-- VGA Dosyalari Baslangic -->
+          <span class="svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-instagram"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+              />
+            </svg>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-youtube"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+              />
+            </svg>
+          </span>
+          <!-- VGA Dosyalari Bitis -->
+          <div style="display: inline-block">
+            <a href="#">
+              <p><span style="color: white">TR</span></p></a
+            >
+          </div>
+          <span style="color: white">|</span>
+          <div style="display: inline-block">
+            <a href="#">
+              <p><span style="color: white">EN</span></p></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Bim Logo -->
+      <a href="#"><img src="img/bim-logo.png" alt="Bim Logo" id="logo" /></a>
+      <!-- Bim Logo -->
+      <!-- A.B.A.T.M.I. Baslangic -->
+      <span class="svg-2">
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-book-half"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
+            />
+          </svg>
+          <br />
+          Aktuel Urunler
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-cup-straw"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82 0 .046-.004.09-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87-1.516 0-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A.78.78 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278zM9.768 4.607A13.991 13.991 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.284 3.284 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085l.18-.808zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a5.514 5.514 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69 1.27 0 2.081-.441 2.438-.69.042-.029.09-.094.102-.215l.852-8.03a5.517 5.517 0 0 1-.435.127 8.88 8.88 0 0 1-.89.17zM4.467 4.884s.003.002.005.006l-.005-.006zm7.066 0-.005.006c.002-.004.005-.006.005-.006zM11.354 5a3.174 3.174 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222z"
+            />
+          </svg>
+          <br />
+          Bim'e Ozel
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-list-columns"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M0 .5A.5.5 0 0 1 .5 0h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 0 .5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-13 2A.5.5 0 0 1 .5 2h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-13 2A.5.5 0 0 1 .5 4h10a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-13 2A.5.5 0 0 1 .5 6h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-13 2A.5.5 0 0 1 .5 8h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-13 2a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-13 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Zm-13 2a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5Zm13 0a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Z"
+            />
+          </svg>
+          <br />
+          Afisler
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-flower1"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M6.174 1.184a2 2 0 0 1 3.652 0A2 2 0 0 1 12.99 3.01a2 2 0 0 1 1.826 3.164 2 2 0 0 1 0 3.652 2 2 0 0 1-1.826 3.164 2 2 0 0 1-3.164 1.826 2 2 0 0 1-3.652 0A2 2 0 0 1 3.01 12.99a2 2 0 0 1-1.826-3.164 2 2 0 0 1 0-3.652A2 2 0 0 1 3.01 3.01a2 2 0 0 1 3.164-1.826zM8 1a1 1 0 0 0-.998 1.03l.01.091c.012.077.029.176.054.296.049.241.122.542.213.887.182.688.428 1.513.676 2.314L8 5.762l.045-.144c.248-.8.494-1.626.676-2.314.091-.345.164-.646.213-.887a4.997 4.997 0 0 0 .064-.386L9 2a1 1 0 0 0-1-1zM2 9l.03-.002.091-.01a4.99 4.99 0 0 0 .296-.054c.241-.049.542-.122.887-.213a60.59 60.59 0 0 0 2.314-.676L5.762 8l-.144-.045a60.59 60.59 0 0 0-2.314-.676 16.705 16.705 0 0 0-.887-.213 4.99 4.99 0 0 0-.386-.064L2 7a1 1 0 1 0 0 2zm7 5-.002-.03a5.005 5.005 0 0 0-.064-.386 16.398 16.398 0 0 0-.213-.888 60.582 60.582 0 0 0-.676-2.314L8 10.238l-.045.144c-.248.8-.494 1.626-.676 2.314-.091.345-.164.646-.213.887a4.996 4.996 0 0 0-.064.386L7 14a1 1 0 1 0 2 0zm-5.696-2.134.025-.017a5.001 5.001 0 0 0 .303-.248c.184-.164.408-.377.661-.629A60.614 60.614 0 0 0 5.96 9.23l.103-.111-.147.033a60.88 60.88 0 0 0-2.343.572c-.344.093-.64.18-.874.258a5.063 5.063 0 0 0-.367.138l-.027.014a1 1 0 1 0 1 1.732zM4.5 14.062a1 1 0 0 0 1.366-.366l.014-.027c.01-.02.021-.048.036-.084a5.09 5.09 0 0 0 .102-.283c.078-.233.165-.53.258-.874a60.6 60.6 0 0 0 .572-2.343l.033-.147-.11.102a60.848 60.848 0 0 0-1.743 1.667 17.07 17.07 0 0 0-.629.66 5.06 5.06 0 0 0-.248.304l-.017.025a1 1 0 0 0 .366 1.366zm9.196-8.196a1 1 0 0 0-1-1.732l-.025.017a4.951 4.951 0 0 0-.303.248 16.69 16.69 0 0 0-.661.629A60.72 60.72 0 0 0 10.04 6.77l-.102.111.147-.033a60.6 60.6 0 0 0 2.342-.572c.345-.093.642-.18.875-.258a4.993 4.993 0 0 0 .367-.138.53.53 0 0 0 .027-.014zM11.5 1.938a1 1 0 0 0-1.366.366l-.014.027c-.01.02-.021.048-.036.084a5.09 5.09 0 0 0-.102.283c-.078.233-.165.53-.258.875a60.62 60.62 0 0 0-.572 2.342l-.033.147.11-.102a60.848 60.848 0 0 0 1.743-1.667c.252-.253.465-.477.629-.66a5.001 5.001 0 0 0 .248-.304l.017-.025a1 1 0 0 0-.366-1.366zM14 9a1 1 0 0 0 0-2l-.03.002a4.996 4.996 0 0 0-.386.064c-.242.049-.543.122-.888.213-.688.182-1.513.428-2.314.676L10.238 8l.144.045c.8.248 1.626.494 2.314.676.345.091.646.164.887.213a4.996 4.996 0 0 0 .386.064L14 9zM1.938 4.5a1 1 0 0 0 .393 1.38l.084.035c.072.03.166.064.283.103.233.078.53.165.874.258a60.88 60.88 0 0 0 2.343.572l.147.033-.103-.111a60.584 60.584 0 0 0-1.666-1.742 16.705 16.705 0 0 0-.66-.629 4.996 4.996 0 0 0-.304-.248l-.025-.017a1 1 0 0 0-1.366.366zm2.196-1.196.017.025a4.996 4.996 0 0 0 .248.303c.164.184.377.408.629.661A60.597 60.597 0 0 0 6.77 5.96l.111.102-.033-.147a60.602 60.602 0 0 0-.572-2.342c-.093-.345-.18-.642-.258-.875a5.006 5.006 0 0 0-.138-.367l-.014-.027a1 1 0 1 0-1.732 1zm9.928 8.196a1 1 0 0 0-.366-1.366l-.027-.014a5 5 0 0 0-.367-.138c-.233-.078-.53-.165-.875-.258a60.619 60.619 0 0 0-2.342-.572l-.147-.033.102.111a60.73 60.73 0 0 0 1.667 1.742c.253.252.477.465.66.629a4.946 4.946 0 0 0 .304.248l.025.017a1 1 0 0 0 1.366-.366zm-3.928 2.196a1 1 0 0 0 1.732-1l-.017-.025a5.065 5.065 0 0 0-.248-.303 16.705 16.705 0 0 0-.629-.661A60.462 60.462 0 0 0 9.23 10.04l-.111-.102.033.147a60.6 60.6 0 0 0 .572 2.342c.093.345.18.642.258.875a4.985 4.985 0 0 0 .138.367.575.575 0 0 0 .014.027zM8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"
+            />
+          </svg>
+          <br />
+          Tarifler
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-shop"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"
+            />
+          </svg>
+          <br />
+          Magaza
+        </button>
+        <button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            fill="currentColor"
+            class="bi bi-envelope"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+            />
+          </svg>
+          <br />
+          Iletisim
+        </button>
+      </span>
+    </div>
+    <!-- A.B.A.T.M.I. Bitis -->
+    <div style="margin-top: 10em">
+      <!-- Carousel Baslangic -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/r-1.jpg"
+              class="d-block w-75 mx-auto"
+              style="margin-top: 1em"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/r-2.jpg"
+              class="d-block w-75 mx-auto"
+              style="margin-top: 1em"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/r-3.jpg"
+              class="d-block w-75 mx-auto"
+              style="margin-top: 1em"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel Bitis -->
+      <!-- Aktuel Urunler Baslangic -->
+      <div id="date">
+        <h5>Aktuel Urunler</h5>
+        <!-- Buton baslangic -->
+        <button class="btn">Gecen Hafta</button> |
+        <button class="btn-1 btn">Bu Hafta</button> |
+        <button class="btn">Gelecek Hafta</button> |
+        <button class="btn">Bu uygulamaya Ozel</button>
+        <!-- Buton bitis -->
+      </div>
+      <!-- Aktuel Urunler Bitis -->
+
+      <!-- Card Baslangic -->
+
+      <section class="row">
+        <!-- Card-1 -->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text text-muted">Molinella</h5>
+              <h5>Sakura Desen Çift Kişilik Nevresim Seti</h5>
+              <p>• Nevresim: 200x220 cm ±5 cm</p>
+              <button class="btn-2">299,00₺</button
+              ><img src="img/paylas.jpg" style="padding-left: 60px" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Card-2 -->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text text-muted">Molinella</h5>
+              <h5>Çift Kişilik Lastikli Çarşaf</h5>
+              <p>• Nevresim: 200x220 cm ±5 cm <br />• Penye</p>
+              <button class="btn-2">109,00₺</button
+              ><img src="img/paylas.jpg" style="padding-left: 60px" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Card-3 -->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text text-muted">Molinella</h5>
+              <h5>Tek Kişilik Lastikli Çarşaf</h5>
+              <p>• 100x200 cm + 30 cm ±10 cm <br />• Penye</p>
+              <button class="btn-2">85,00₺</button
+              ><img src="img/paylas.jpg" style="padding-left: 60px" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Card-4 -->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem; height: 460px">
+            <img src="img/card-4.jpg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+        <!-- Card-5 -->
+        <div class="col-sm-3 mt-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5>Black Out Fon Perde</h5>
+              <p>
+                • 145x250 cm <br />
+                • Işik geçirmez
+              </p>
+              <button class="btn-2">69,00₺</button
+              ><img src="img/paylas.jpg" style="padding-left: 60px" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Card-6 -->
+        <div class="col-sm-3 mt-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-6.jpg" class="card-img-top" alt="..." />
+          </div>
+        </div>
+        <!-- Card-7 -->
+        <div class="col-sm-3 mt-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5>Tül Perde</h5>
+              <p>
+                • 140x260 cm <br />
+                • Farklı renk ve desenlerde
+              </p>
+              <button class="btn-2">59,00₺</button
+              ><img src="img/paylas.jpg" style="padding-left: 60px" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Card-8 -->
+        <div class="col-sm-3 mt-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-text text-muted">Molinella</h5>
+              <h5>Yastik Kilifi</h5>
+              <p>• 50x70 cm ±5 cm</p>
+              <button class="btn-2">59,00₺</button
+              ><img src="img/paylas.jpg" style="padding-left: 60px" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Card-9 -->
+        <div class="col-sm-3 mt-4">
+          <div class="card" style="width: 18rem">
+            <img src="img/card-7.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5>Dekoratif Sukulentli Obje</h5>
+              <p>• Asilabilir arkalikli</p>
+              <button class="btn-2">39,50₺</button
+              ><img src="img/paylas.jpg" style="padding-left: 60px" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Card Bıtıs -->
+
+      <!-- Carousel Baslangic -->
+      <h3 style="text-align: center; margin-top: 1em">Bim'e Ozel Markalar</h3>
+
+      <button class="btn-3">Etli Taze Mamuller</button>
+      <button class="btn-3">Sut ve Sut Urunleri</button>
+      <button class="btn-3">Icecekler</button>
+      <button class="btn-3">Bakliyatlar</button>
+      <button class="btn-3">Tatlilar</button>
+      <button class="btn-3">Meyve ve Sebze</button>
+      <button class="btn-3">D.Yiyecekler</button>
+      <button class="btn-3">Temizlik Malzemesi</button>
+
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner mt-4 mb-4">
+          <div class="carousel-item active">
+            <img
+              src="img/et-mamulleri.jpg"
+              class="d-block w-75 mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/sut-urunleri.jpg"
+              class="d-block w-75 mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/icecekler.jpg"
+              class="d-block w-75 mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/bakliyat.jpg"
+              class="d-block w-75 mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/tatli.jpg" class="d-block w-75 mx-auto" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/meyve.jpg" class="d-block w-75 mx-auto" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/dondurulmus.jpg"
+              class="d-block w-75 mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/temizlik.jpg"
+              class="d-block w-75 mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/kagit.jpg" class="d-block w-75 mx-auto" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/yaglar.jpg" class="d-block w-75 mx-auto" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/gida-disi.jpg"
+              class="d-block w-75 mx-auto"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <button class="btn">Markalarimiz</button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel Bitis -->
+      <!-- Card 2 Baslangic -->
+      <h4 style="text-align: center">Bir Hizmet Felsefesi</h4>
+      <!--Card-1-->
+      <section class="row">
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <div style="padding-left: 6em">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-box2"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.95.4a1 1 0 0 1 .8-.4h8.5a1 1 0 0 1 .8.4l2.85 3.8a.5.5 0 0 1 .1.3V15a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4.5a.5.5 0 0 1 .1-.3L2.95.4ZM7.5 1H3.75L1.5 4h6V1Zm1 0v3h6l-2.25-3H8.5ZM15 5H1v10h14V5Z"
+                  />
+                </svg>
+              </div>
+
+              <p>
+                BİM müşterileri,memnun <br />
+                kalmadıkları ürünleri <br />
+                tartışmasız iade edebilirler.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Card-2-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem; height: 10rem">
+            <div class="card-body">
+              <div style="padding-left: 6em">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-arrow-clockwise"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"
+                  />
+                  <path
+                    d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"
+                  />
+                </svg>
+              </div>
+
+              <p>
+                BİM,en kaliteli ürünleri <br />
+                en uygun fiyatlarla sunar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Card-3-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem; height: 10rem">
+            <div class="card-body">
+              <div style="padding-left: 6em">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-shop"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"
+                  />
+                </svg>
+              </div>
+
+              <p>
+                BİM,müşterilerine en yakın <br />
+                noktalarda ve en uygun <br />
+                fiyatlarla mağaza kiralar.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Card 4-->
+        <div class="col-sm-3">
+          <div class="card" style="width: 18rem; height: 10rem">
+            <div class="card-body">
+              <div style="padding-left: 6em">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-diagram-3-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z"
+                  />
+                </svg>
+              </div>
+
+              <p>
+                BİM için müşterilerinin <br />
+                menfaati kısa vadeli yüksek <br />
+                kardan daha önemlidir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="btn mx-auto mt-4">Detay Bilgi</button>
+      </section>
+      <!-- Card 2 Bitis -->
+      <img src="img/bimcell.png" alt="" style="padding-left: 42%" /> <br />
+      <img
+        src="img/re.jpg"
+        alt=""
+        style="
+          width: 1100px;
+          height: 300px;
+          padding-left: 10em;
+          margin-top: 1em;
+        "
+      />
+      <br />
+      <button class="btn" style="margin-left: 45%; margin-top: 1em">
+        Detayli Bilgi
+      </button>
+      <!--Footer Baslangic-->
+      <footer class="footer">
+        <section class="row">
+          <!--section1-->
+
+          <div class="col-sm-2">
+            <div class="mx-auto" style="width: 18rem; height: 10rem">
+              <div class="card-body">
+                <img src="img/bim-logo.png" style="width: 200px" alt="" />
+                <br />
+                <!-- Facebook Svg -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-facebook"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                  />
+                </svg>
+                <!-- Instagram Svg -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-instagram"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                  />
+                </svg>
+                <!--Youtube Svg-->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  fill="currentColor"
+                  class="bi bi-youtube"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!--- card-2 -->
+          <div class="col-sm-2">
+            <div class="" style="width: 14rem; height: 10rem">
+              <div class="card-body">
+                <img src="img/qr.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Card-3 -->
+          <div class="col-sm-2">
+            <div class="" style="width: 9rem; height: 10rem">
+              <div class="card-body">
+                <a href="#" class="f-link"><p>AnaSayfa</p></a>
+                <a href="#" class="f-link"><p>Hakkimizda</p></a>
+                <a href="#" class="f-link"><p>Bize Ulasin</p></a>
+                <a href="#" class="f-link"><p>Bim Misir</p></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card-4 -->
+          <div class="col-sm-2">
+            <div class="" style="width: 13rem; height: 10rem">
+              <div class="card-body">
+                <a href="#" class="f-link"><p>Bim'e Ozel Markalar</p></a>
+                <a href="#" class="f-link"><p>Cerez Ayarlari</p></a>
+                <a href="#" class="f-link"><p>Bim Haediye Karti</p></a>
+                <a href="#" class="f-link"><p>Bim Fas</p></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card-5 -->
+          <div class="col-sm-2">
+            <div class="" style="width: 13rem; height: 10rem">
+              <div class="card-body">
+                <a href="#" class="f-link"><p>Kullanim Sartlari</p></a>
+                <a href="#" class="f-link"><p>Bilgi Toplumu Hizmetleri</p></a>
+                <a href="#" class="f-link"><p>Aktuel Urunler</p></a>
+                <a href="#" class="f-link"><p>Yatirimci Iliskileri</p></a>
+              </div>
+            </div>
+          </div>
+          <!-- Card-6 -->
+          <div class="col-sm-2">
+            <div class="" style="width: 13rem; height: 10rem">
+              <div class="card-body">
+                <a href="#" class="f-link"><p>Magazalar</p></a>
+                <a href="#" class="f-link"><p>Bimde Kariyer</p></a>
+                <a href="#" class="f-link"><p>Kiralik yeriniz var mi?</p></a>
+                <a href="#" class="f-link"><p>Gizlilik ve Guvenlik</p></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+      <!--Footer Bitis-->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
